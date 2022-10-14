@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>horoscope App </title>
+    <link rel="stylesheet" type="text/css" href="andela.css">
+</head>
+<body>
+    <div class="container mx-auto">
+        <div class="text-center">
+            <h1>Quickteller HOROSCOPE App</h1>
+        </div>
+
+        <form >
+            <div class="text-center">
+                <label ">Enter your name:</label> 
+                <input class="input is-large" name="MOF" type="text" placeholder="Enter your name" id="name" />
+            </div>
+
+            <h2 class="tex">Enter Month and Date of Birth:</h2>
+            <div class="d-flex space-around-flex">
+                <div class="title">
+                    <label for="MOF">Birth Month:</label> 
+                    <input class="input is-large" name="MOF" type="number" min="1" max="12" placeholder="MM Format" id="month" required/>
+                </div>
+
+                <div class="title">
+                    <label>Birth Date:</label>
+                    <input class="input is-large" name="DOB" type="number" min="1" max="31" placeholder="DD Format" id="day" required/>
+                </div>
+            </div>
+        </form>
+
+        <div class="text-center btn">
+            
+            <button id="get">Get your Horoscope</button>
+            <button id="previous">Review</button>
+        </div>
+        <div class="text-center">
+            <h3>now you can enjoy your Horoscope!!</h3>
+            <div style="color: rgb(8, 8, 7);" id="horoscope"></div>
+        </div>
+        <div class="text-center">
+            <button class="remove" id="delete-btn">Remove</button>
+        </div>`
+    </div>
+
+     <script src="andela.js"></script>
+
+</body>
+</html>
