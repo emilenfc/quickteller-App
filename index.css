@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for Body */
+body {
+    background-image:url("https://t3.ftcdn.net/jpg/03/65/96/22/360_F_365962229_trN3stvz7SX1pKU34aTosKOIslpGqmXZ.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    font-size: 1.3rem;
+  }
+
+  input{
+    outline: none;
+    border-radius: 5px;
+    padding: .5rem .1rem;
+    margin: .4rem 0;
+    width: 10rem;
+  }
+
+  .container {
+    background-color:rgba(0, 300, 300, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    top: 100px;
+    width: 50%;
+    min-width:300px;
+    height: auto;
+    padding: 3rem;
+
+    border-radius: 3rem;
+    box-shadow: 0px 0px 0px 50px #83e4df65;
+  }
+
+  .text-center{ 
+    text-align: center;
+  }
+
+ .tex{
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .remove{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: aliceblue;
+    color: crimson;
+    transform:scale(1.3)
+  }
+  .d-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+  .space-around-flex {
+    justify-content: center;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    
+  }
+
+button {
+    padding: 0.25rem 0.5rem;
+    border-radius: 40%;
+    background: green;
+    text-transform: uppercase;
+  }
+
+  button:hover{
+    background-color: wheat;
+    opacity: 500;
+    transform:scale(1.1);
+    color: brown;
+    
+  }
+  h1{
+    padding-bottom: 1rem;
+  }
+#previous{
+  background-color: blue;
+}
+#name{
+  text-transform: capitalize;
+}
